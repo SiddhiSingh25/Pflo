@@ -439,7 +439,7 @@ nav {
 }
 .skill-img i{
     font-size: 9rem;
-    background: linear-gradient(20deg, #bf3eff, #ff749c, rgb(189, 66, 255), #cc98ff);
+    background: linear-gradient(90deg, #db93ff, #e71c56, rgb(255, 66, 161), #842cdc, #a6f9f9, rgb(214, 104, 131));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
