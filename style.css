@@ -1017,7 +1017,7 @@ nav{
     font-size: 2.6rem;
 }
 .intro{
-    font-size: 9vh;
+    font-size: 8.8vh;
     line-height: 6.3rem;
 }
 .intro-sec{
@@ -1025,7 +1025,7 @@ nav{
 }
 .page1{
     padding: 0 2rem;
-    min-height: 100vh;
+    min-height: 98vh;
 }
 .dev-div .fr {
     height: 4rem;
@@ -1135,11 +1135,11 @@ nav{
     margin-bottom: 3rem;
 }
 .hello{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .page3{
     padding: 0 2rem;
-    height: 80vh;
+    height: 84vh;
 }
 .page3-head{
     height: 15vh;
@@ -1161,7 +1161,7 @@ nav{
     font-size: 3.5rem;
 }
 .skills {
-    height: fit-content;
+    height: 68vh;
     width: 90vw;
     background-color: #ffffff;
     margin-top: 0rem; 
@@ -1173,15 +1173,12 @@ nav{
     flex-wrap: wrap;
     background: linear-gradient(20deg, #da6f6f, #ffcdde, #e2abff, #e5cbff);
 }
-.page4{
-    padding: 1rem 2rem 0 2rem;
-}
 .clg{
     width: 100%;
 }
 /*pg 4*/
 .page4{
-    min-height: 180vh;
+    min-height: 165vh;
     width: 100vw;
     background-color: rgb(241, 227, 255);
     padding: 1rem 2rem 0 2rem;
