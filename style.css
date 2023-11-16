@@ -1017,7 +1017,7 @@ nav{
     font-size: 2.6rem;
 }
 .intro{
-    font-size: 6.7rem;
+    font-size: 6.5rem;
     line-height: 6.4rem;
 }
 .intro-sec{
@@ -1053,7 +1053,7 @@ nav{
     margin-top: 2rem;
 }
 .about {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     padding: 0 2rem;
     display: flex;
@@ -1090,7 +1090,7 @@ nav{
     margin-right: 0;
     display: flex;
     justify-content: center;
-    margin-bottom: 4rem;
+    align-items: center;
 }
 .my_pic{
     height: 27rem;
@@ -1100,6 +1100,8 @@ nav{
     margin-right: 0rem;
     scale: 1;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .about-content{
     width: 100%;
@@ -1135,7 +1137,7 @@ nav{
 }
 .page3{
     padding: 0 2rem;
-    height: 75vh;
+    height: 80vh;
 }
 .page3-head{
     height: 15vh;
