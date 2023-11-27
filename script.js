@@ -152,3 +152,14 @@ menu.addEventListener("click", function(){
     navbar.style.display="flex";
 
 })
+document.querySelector(".form-group input").addEventListener("focus", function(){
+    document.querySelector(".form-group").style.backgroundColor = "pink"
+})
+let ip =document.querySelector(".form-group input");
+ip.addEventListener("blur", function(){
+    ip.value = ip.value.toUpperCase();
+})
+console.log(document.getElementsByClassName("fname"))
+function hel(){
+    alert("Hello");
+}
