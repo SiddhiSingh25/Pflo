@@ -64,7 +64,7 @@ skill.addEventListener("mouseenter", function(){
     gsap.from(".skill-box", {
         opacity:1,
         delay:0.1,
-        scale:1.2,
+        scale:1.1,
         duration:0.3,
         stagger:0.1
     })
@@ -147,11 +147,29 @@ function animmsg(){
         opacity:1
     })
  }
-let menu = document.querySelector(".menu");
+    let menu = document.querySelector(".menu");
 menu.addEventListener("click", function(){
-    navbar.style.display="flex";
-
+    document.querySelector(".logo").style.display ="none";
+    menu.style.display="none";
+    document.querySelector("nav").style.padding="0";
+    document.querySelector(".info").style.marginBottom="0";
+    document.querySelector(".info").style.width="100%"; 
+    document.querySelector(".info").style.display="flex";
+    clck =1;
 })
+
+    let menuCut = document.querySelector(".menu-b");
+    menuCut.addEventListener("click", function(){
+    document.querySelector(".logo").style.display ="flex";
+    menu.style.display="flex";
+    document.querySelector("nav").style.padding="0 2.4rem";
+    document.querySelector(".info").style.marginBottom="110rem";
+    document.querySelector(".info").style.width="0";
+    document.querySelector(".info").style.display="none";
+})
+
+
+
 document.querySelector(".form-group input").addEventListener("focus", function(){
     document.querySelector(".form-group").style.backgroundColor = "pink"
 })
@@ -159,7 +177,3 @@ let ip =document.querySelector(".form-group input");
 ip.addEventListener("blur", function(){
     ip.value = ip.value.toUpperCase();
 })
-console.log(document.getElementsByClassName("fname"))
-function hel(){
-    alert("Hello");
-}

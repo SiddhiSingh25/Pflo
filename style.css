@@ -118,6 +118,14 @@ nav {
     color: #161616;
     display: none;
 }
+.menu-b{
+    height:fit-content;
+    width: fit-content;
+    font-size: 1.8rem;
+    color: #ffffff;
+    display: none;
+
+}
 .info {
     width: 50%;
     display: flex;
@@ -445,11 +453,10 @@ nav {
 }
 .skill-img i{
     font-size: 9rem;
-    background: linear-gradient(90deg, #db93ff, #e71c56, rgb(255, 66, 161), #842cdc, #a6f9f9, rgb(214, 104, 131));
+    background:linear-gradient(144deg, #ac19f5, #4784f4, #2ce6e0 );
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-
 }
 .skill-nm{
     height: 30%;
@@ -662,7 +669,7 @@ footer{
 }
 .box h1:hover{
     color: transparent;
-    background: linear-gradient(144deg, #639aff, #976aff, #769ebe, #80a9f5, #f03cfd, #80dcf5);
+    background: linear-gradient(144deg, #689dff, #976aff, #60b5fb, #74a0f1, #f019ff, #6bdfff);
     background-clip: text;
     -webkit-background-clip: text;
     text-decoration: underline;
@@ -685,8 +692,7 @@ footer{
     background:linear-gradient(90deg, rgb(10, 205, 215), #2d35da 100%) ;
     background-clip: text;
     -webkit-background-clip: text;
-    text-shadow: 0px 1px 6px rgba(204, 219, 219, 0.4);
-    
+    text-shadow: 0px 1px 6px rgba(204, 219, 219, 0.4); 
 }
 .info-links{
     margin-bottom: 1rem;
@@ -1012,13 +1018,30 @@ footer{
 /*  Responsiveness!!*/
 @media (max-width:600px){
 .info{
-    display: none;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+    height: 65vh;
+    border: 1px solid red;
+    margin-top: 45rem;
+    /* z-index: 5555; */
+    background: black;
+    margin-bottom: 110rem;
+    border-radius: 0 0rem 1rem 25rem;
 }
+
 nav{
     padding: 0 2.4rem;
 }
 .menu{
     display: block;
+}
+.menu-b{
+    display: block;
+
 }
 .logo .port {
     display: none;
@@ -1181,7 +1204,10 @@ nav{
     justify-content: space-around;
     border-radius: 10px;
     flex-wrap: wrap;
-    background: linear-gradient(20deg, #da6f6f, #ffcdde, #e2abff, #e5cbff);
+    
+}
+.skill-box{
+    scale: 1.9;;
 }
 .clg{
     width: 100%;
