@@ -26,36 +26,6 @@ body {
     height: 100vh;
     width: 100vw;
 }*/
-/*.blur-divs {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: 99;
-    display: flex;
-    justify-content: space-between;
-    top: 20%;
-}
-
-.blur1 {
-    height: 10rem;
-    width: 10rem;
-    background-color: rgb(231, 239, 255);
-    filter: blur(25px) saturate(10);
-    position: relative;
-    top: 30%;
-    left: 1%;
-}
-
-.blur2 {
-    height: 10rem;
-    width: 10rem;
-    background-color: #ffeaf6;
-    filter: blur(25px) saturate(10);
-    position: relative;
-    top: 5%;
-    right: 1%;
-}
-*/
 .page1 {
     height: calc( 100vh - 8rem );
     width: 100%;
@@ -1175,9 +1145,11 @@ nav{
 }
 .location{
     margin-bottom: 3rem;
+    opacity: 1;
 }
 .hello{
     margin-bottom: 2rem;
+    opacity: 1;
 }
 .page3{
     padding: 0 2rem;
@@ -1215,8 +1187,8 @@ nav{
     flex-wrap: wrap;
 }
 .skill-box{
-    height: 13rem;
-    width: 13rem;
+    height: 13.5rem;
+    width: 13.5rem;
 }
 .clg{
     width: 100%;
