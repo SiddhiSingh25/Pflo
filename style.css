@@ -995,10 +995,9 @@ footer{
     flex-direction: column;
     gap: 5rem;
     height: 65vh;
-    border: 1px solid red;
     margin-top: 45rem;
     /* z-index: 5555; */
-    background: black;
+    background: linear-gradient(0deg, #f2d7ff, #ffbcf8, #ffc4d5, #edccff, #ffbcf8, #f2d7ff);
     margin-bottom: 110rem;
     border-radius: 0 0rem 1rem 25rem;
 }
