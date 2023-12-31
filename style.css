@@ -1127,6 +1127,15 @@ nav{
     margin-bottom: 5rem;
     margin-top:0;
 }
+.about-content p{
+    opacity: 1;
+}
+.about-content h1{
+    opacity:1;
+}
+.about-content h2{
+    opacity:1;
+}
 .my_pic{
     height: 27rem;
     width: 27rem;
@@ -1204,10 +1213,10 @@ nav{
     justify-content: space-around;
     border-radius: 10px;
     flex-wrap: wrap;
-    
 }
 .skill-box{
-    scale: 1.9;;
+    height: 13rem;
+    width: 13rem;
 }
 .clg{
     width: 100%;
