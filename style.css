@@ -1082,6 +1082,10 @@ nav{
     padding: 0 2rem;
     min-height: 95vh;
 }
+.about-content .ag{
+    opacity: 1;
+
+}
 .dev-div .fr {
     height: 4rem;
     width: 15rem;
