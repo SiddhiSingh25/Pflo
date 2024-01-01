@@ -169,11 +169,20 @@ menu.addEventListener("click", function(){
 })
 
 
+let inpBox = document.querySelectorAll(".form-group input");
+let inpBox1 = document.querySelectorAll(".form-group");
 
-document.querySelector(".form-group input").addEventListener("focus", function(){
-    document.querySelector(".form-group").style.backgroundColor = "pink"
-})
+for( let i=0; i<inpBox.length; i++){
+    inpBox[i].addEventListener("focus", function(){
+   
+        inpBox1[i].style.boxShadow = "inset 8px 8px 8px #cae7fe, inset -8px -8px 8px pink";
+    })
+}
+
+
 let ip =document.querySelector(".form-group input");
 ip.addEventListener("blur", function(){
     ip.value = ip.value.toUpperCase();
+    
 })
+/* */  

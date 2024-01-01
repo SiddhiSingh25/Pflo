@@ -954,6 +954,59 @@ footer{
     text-align: center;
     opacity: 0;
 }
+.dev-name{
+    height: 10vh;
+    width: 100%;
+    font-size: 20px;
+    color: #145b57;
+    background-color: rgb(255, 228, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #e0ecff;
+    margin-bottom: 5rem;
+}
+.gal-head{
+    font-size: 10rem;
+    color: #1b1b1b;
+    text-shadow:  1px 4px #c8c8c8, -3px -3px 8px #ffffff;
+    text-align: center;
+}
+.pic-sec{
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+.pics{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 3rem;
+
+}
+.picture img{
+    height:33vh;
+    width: 43vh;
+    object-fit: contain;
+    border-radius: 3rem;
+    scale: 1;
+}
+.picture img:hover{
+    scale: 1.2;
+    box-shadow: 8px 8px 8px #cbced1, -8px -8px 8px #ffffff;
+}
 /* Responsive css */
 @media only screen and (max-width: 767px) {
     .box-wrapper{
@@ -1378,5 +1431,43 @@ footer{
 }
 .icon-con{
     margin-top: 2.5rem;
+}
+.gallery{
+    margin-bottom: 5rem;
+}
+.gal-head{
+    font-size: 8rem;
+    color: #1b1b1b;
+    text-shadow:  1px 4px #c8c8c8, -3px -3px 8px #ffffff;
+    text-align: center;
+}
+.pic-sec{
+    height: max-content;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.pics{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 0rem;
+    gap: 2rem;
+}
+.picture img{
+    height:25vh;
+    width: 40vw;
+    object-fit: contain;
+    border-radius: 1rem;
+
+}
+.ac1{
+    display: none;
 }
 }
