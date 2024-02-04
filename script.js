@@ -1,21 +1,9 @@
-/*window.onload = function(){
-    document.getElementById("error").style.opacity=1;
-}
-window.on
+setTimeout( function(){
+    document.querySelector(".circle").style.display= "none";
+    document.querySelector(".main").style.display= "inline";
 
-*/
-
-
-
-
-
-
-
-
-
-
-
-
+    
+},3000)
 var page1=document.querySelector(".page1");
 page1.addEventListener("mouseenter", function(){
     document.querySelector(".home-nav").style.color="#49bff6";
