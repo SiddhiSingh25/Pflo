@@ -17,6 +17,8 @@ body {
     width: 100%;
     background: linear-gradient(90deg, #ffcdde 0%, #ffe3ec 60%,  #ffcddf 100%);
     background-color: rgb(247, 247, 247);
+    scrollbar-width: thin;
+    scrollbar-color: #4d7fff #ddd;
 }
 .main{
     display: none;
@@ -25,7 +27,7 @@ body {
     display: flex;
     height: 100vh;
     width: 100vw;
-    background-color:#bf3eff;
+    background: linear-gradient(90deg, #d6beff 0%, #caaef9 100%);
     align-items: center;
     justify-content: center;
 }
